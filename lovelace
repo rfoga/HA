@@ -1,0 +1,73 @@
+type: picture-elements
+elements:
+  - type: state-badge
+    entity: sensor.tz3000_dowj6gyi_ts0201_humidity_2
+    style:
+      top: 35%
+      left: 50%
+  - type: state-badge
+    entity: sensor.tz3000_dowj6gyi_ts0201_humidity_3
+    style:
+      top: 35%
+      left: 16%
+  - type: state-badge
+    entity: sensor.tz3000_dowj6gyi_ts0201_humidity
+    style:
+      top: 35%
+      left: 84%
+  - type: state-badge
+    entity: sensor.tz3000_xr3htd96_ts0201_humidity
+    style:
+      top: 83%
+      left: 49%
+  - type: state-label
+    entity: sensor.tz3000_dowj6gyi_ts0201_temperature_2
+    style:
+      top: 22%
+      left: 50%
+      font-size: 14px
+      color: red
+      font-family: Helvetica
+      display: block
+      overflow: hidden
+  - type: state-label
+    entity: sensor.tz3000_dowj6gyi_ts0201_temperature_3
+    style:
+      top: 22%
+      left: 84%
+      font-size: 14px
+      color: red
+      font-family: Helvetica
+      display: block
+      overflow: hidden
+  - type: state-label
+    entity: sensor.tz3000_dowj6gyi_ts0201_temperature
+    style:
+      top: 22%
+      left: 17%
+      font-size: 14px
+      color: red
+      font-family: Helvetica
+      display: block
+      overflow: hidden
+  - type: state-label
+    entity: sensor.tz3000_xr3htd96_ts0201_temperature
+    style:
+      top: 71%
+      left: 49%
+      font-size: 14px
+      color: red
+      font-family: Helvetica
+      display: block
+      overflow: hidden
+  - type: state-label
+    entity: sensor.tasmota_ds18b20_temperature
+    style:
+      top: 68%
+      left: 80%
+      font-size: 18px
+      color: green
+      font-family: Helvetica
+      display: block
+      overflow: hidden
+image: https://demo.home-assistant.io/stub_config/floorplan.png
